@@ -2,7 +2,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 
 训练环境windows 7/10, 其他环境未测试
 
-## 基本说明
+# 基本说明
 
 **(1)请使用[ZQCNN_MTCNN](https://github.com/zuoqing1988/ZQCNN)来进行forward**
 
@@ -14,7 +14,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 
 **(4)Onet暂时没有训练，等陆续更新**
 
-## 训练建议
+# 训练建议
 
 **(0)下载[WIDER_train](https://pan.baidu.com/s/1PSR11Xs8lWmtVazCGoYR7Q)解压到data文件夹**
 
@@ -28,7 +28,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 
 	生成prepare_data/wider_annotations/anno.txt和data/mtcnn/imglists/train.txt
 
-# 训练Pnet20 
+## 训练Pnet20 
 
 **(3)双击P20_gen_data.bat**
 
@@ -58,7 +58,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 	
 	进一步训练Pnet20
 	
-# 训练Rnet
+## 训练Rnet
 
 **(10)双击R_gen_data.bat**
 
@@ -80,7 +80,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 
 	训练Rnet
 	
-# 训练Onet， 未完待续...
+## 训练Onet， 未完待续...
 
 
 
