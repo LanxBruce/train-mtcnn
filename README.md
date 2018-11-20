@@ -16,7 +16,7 @@ train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtc
 
 ## 训练建议
 
-**(0)下载[WIDER_train](https://pan.baidu.com/s/1PSR11Xs8lWmtVazCGoYR7Q)解压到data文件夹
+**(0)下载[WIDER_train](https://pan.baidu.com/s/1PSR11Xs8lWmtVazCGoYR7Q)解压到data文件夹**
 
 	解压之后目录为data/WIDER_train/images
 
