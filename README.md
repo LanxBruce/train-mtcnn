@@ -1,14 +1,14 @@
 ## train mtcnn: a modified version by Zuo Qing from https://github.com/Seanlinx/mtcnn
 
-**请使用[ZQCNN_MTCNN](https://github.com/zuoqing1988/ZQCNN)来进行forward**
+**(1)请使用[ZQCNN_MTCNN](https://github.com/zuoqing1988/ZQCNN)来进行forward**
 
-**Pnet改为Pnet20需要在你的MTCNN中更改cell_size=20, stride=4**
+**(2)Pnet改为Pnet20需要在你的MTCNN中更改cell_size=20, stride=4**
 
 1920*1080图像找20脸，第一层Pnet20输入尺寸1920x1080，计算量347.9M，原版Pnet输入1152x648，计算量1278.0M
 
-**Rnet保持size=24不变，网络结构变为dw+sep，计算量约为原版1/3**
+**(3)Rnet保持size=24不变，网络结构变为dw+sep，计算量约为原版1/3**
 
-**Onet暂时没有训练，等陆续更新**
+**(4)Onet暂时没有训练，等陆续更新**
 
 ## Introduction
 this repository is the implementation of MTCNN in MXnet
