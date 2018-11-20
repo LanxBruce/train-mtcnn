@@ -1,0 +1,1 @@
+writeImageLists('train');

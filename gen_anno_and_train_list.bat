@@ -1,0 +1,2 @@
+python prepare_data\wider_annotations\gen_anno_and_train_list.py
+pause
